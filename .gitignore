@@ -1,0 +1,27 @@
+# Build and dependency output
+**/node_modules/
+**/dist/
+**/target/
+**/coverage/
+*.tsbuildinfo
+
+# Local environment files; keep the example template
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local modernization workflow output
+/.github/modernize/
